@@ -12,11 +12,11 @@ public class Account {
 		this.holder = holder;
 	}
 
-	public Account(int number, String holder, double balance) {
+	public Account(int number, String holder, double initialDeposit) {
 		
 		this.number = number;
 		this.holder = holder;
-		this.balance = balance;
+		deposit(initialDeposit);
 	}
 
 	public int getNumber() {
@@ -35,6 +35,17 @@ public class Account {
 		return balance;
 	}
 
+	public void deposit(double amount) {
+		balance += amount;
+	}
+	
+	public void withdraw(double amount) {
+		balance -= amount + 5.0;	
+	}
+	
+	
+	
+	
 	
 	
 	
