@@ -43,6 +43,14 @@ public class Account {
 		balance -= amount + 5.0;	
 	}
 	
+	public String toString() {
+		return "Número da conta: "
+				+ number
+				+ ", Titular: "
+				+ holder
+				+ ", Saldo: $ "
+				+ String.format("%.2f", balance);
+	}
 	
 	
 	
