@@ -39,7 +39,12 @@ public class Program {
 		System.out.println("Status atual da conta: ");
 		System.out.println(account);
 		
-		
+		System.out.println();
+		System.out.print("Entre do saque: ");
+		double withdrawValue = sc.nextDouble();
+		account.withdraw(withdrawValue);
+		System.out.println("Status atual da conta: ");
+		System.out.println(account);
 		
 		 
 		
