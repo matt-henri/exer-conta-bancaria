@@ -52,9 +52,7 @@ public class Account {
 				+ String.format("%.2f", balance);
 	}
 	
-	
-	
-	
+		
 	
 	
 	

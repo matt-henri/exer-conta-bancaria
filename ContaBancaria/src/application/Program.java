@@ -31,6 +31,16 @@ public class Program {
 		System.out.println();
 		System.out.println("Informações da conta: ");
 		System.out.println(account);
+		
+		System.out.println();
+		System.out.print("Entre com valor de deposito: ");
+		double depositValue = sc.nextDouble();
+		account.deposit(depositValue);
+		System.out.println("Status atual da conta: ");
+		System.out.println(account);
+		
+		
+		
 		 
 		
 		sc.close();
